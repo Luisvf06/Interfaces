@@ -10,32 +10,30 @@
 <body>
     <form method="post">
         <div>
+            <p>Datos personales</p>
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="cliente_nombre">
-        </div>
-        <div>
+            <br>
             <label for="Apellidos">Apellidos</label>
             <input type="text" id="Apellidos" name="cliente_apellidos">
-        </div>
-        <div>
-            <p>Sexo</p>
+            <br>
             <label for="sexo">Hombre</label>
             <input type="radio" name="sexo" id="hombre" value="hombre">
             <label for="sexo">Mujer</label>
             <input type="radio" name="sexo" id="mujer" value="mujer">
-        </div>
-        <div>
-            <label for="telefono">Teléfono</label>
-            <input type="tlf" id="telefono" name="cliente_telefono">
-        </div>
-        <div>
+            <br>
             <label for="nacimiento">Fecha nacimiento</label>
             <input type="Date" id="nacimiento" name="cliente_edad" min="1920" max="2023">
         </div>
         <div>
+            <p>Datos de contacto</p>
+            <label for="telefono">Teléfono</label>
+            <input type="tlf" id="telefono" name="cliente_telefono">
+            <br>
             <label for="email">Correo electrónico</label>
             <input type="text" id="email" name="cliente_email">
         </div>
+        <br>
         <button type="button">Enviar</button>
     </form>
     
