@@ -1,7 +1,10 @@
 h1{display: inline; font-size: 80px;}
 li{display: inline-block; padding: 20px;list-style-type: disc;position: relative;}
-li > ul{position: absolute;padding: 0px;}
+li > ul{position: absolute;padding-top: 0px;}
 li:hover .submenu{display:block;}
 .submenu{display: none;border-style:solid;border-color:grey;border-radius:  5px;}
 div {display: inline-block;padding-right:10%;}
-
+header{background-color: #7c8071;margin-bottom: 0px;padding-bottom: 0px;}
+nav{background-color:#b5bfad;margin-top: 0px;padding-bottom: 0px;}
+.submenu{background-color: #7c8071;}
+body{background-color: #dde3ca;}
